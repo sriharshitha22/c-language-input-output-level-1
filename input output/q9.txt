@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+{int unitconsumed,costperunit,tot;
+scanf("%d %d",&unitconsumed,&costperunit);
+tot= pow (unitconsumed , costperunit);
+scanf("%d",&tot);
+printf("%d",tot);
+	return 0;
+}
